@@ -6,6 +6,8 @@ Verde: #49a09d
 Lilás: #5f2c82
 */
 
+/* First Mobile */
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
@@ -37,6 +39,9 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
 
 }
 
